@@ -28,10 +28,10 @@ public class IsIsogram {
                 }
             }
             if(tempint>input.length()){
-                System.out.println("The Input"+input+"is not isogram");
+                System.out.println("The Input "+input+" is not isogram");
                 break;
             }else{
-                System.out.println("The Input"+input+"is a isogram");
+                System.out.println("The Input "+input+" is a isogram");
                 break;
             }
         }

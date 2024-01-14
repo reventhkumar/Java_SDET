@@ -9,7 +9,6 @@ public class FirstnFibbonoci {
                 String count = myScanner.nextLine();
                 long nFib = Integer.parseInt(count);
                 System.out.println("Enter the Starting number");
-                
                 String Snumber = myScanner.nextLine();
                 long B = Integer.parseInt(Snumber);
                 System.out.println("A Fibbonoci series staring with "+B+" are as follow");
