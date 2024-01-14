@@ -18,7 +18,7 @@ public class SumOfnNumbers {
                         result += i;
                     }
                 }
-                    System.out.println(result);
+                System.out.println(result);
             }
             catch(NumberFormatException e){
                 System.out.println("Enter a valid input, try again?");

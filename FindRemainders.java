@@ -14,7 +14,7 @@ public class FindRemainders {
                 if(input1<=0 || input2<=0){
                     System.out.println("Value's should be greater than 0");
                     continue;
-                }else{
+                } else{
                     int result = input1 % input2;
                     System.out.println(result);
                     break;

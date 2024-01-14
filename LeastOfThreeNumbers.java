@@ -26,11 +26,9 @@ public class LeastOfThreeNumbers {
                     int B = Integer.parseInt(userInput2); // 1
                     int C = Integer.parseInt(userInput3); // 20
 
-                    if(A==B||C==A||B==C)
-                    {
+                    if(A==B||C==A||B==C){
                         System.out.println("Repeating the same numbers is not allowed, try again \n");
-                    }
-                    else{
+                    } else{
                         LeastNumber = A<B ? A : B; 
                         LeastNumber = B<C ? B : C;
                         System.out.println("Least number is: " + LeastNumber);

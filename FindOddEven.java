@@ -11,12 +11,10 @@ public class FindOddEven {
                     if(input==0){
                         System.out.println("The Value should be greated than zero,try again!");
                         continue;
-                    }
-                    if(input%2 ==0)
-                    {
+                    } else if(input%2 ==0){
                         System.out.println("It's a even number");
                         break;
-                    }else{
+                    } else{
                         System.out.println("It's a odd number");
                         break;
                     }  

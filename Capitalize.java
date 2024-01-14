@@ -4,7 +4,7 @@ public class Capitalize {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in); 
         StringBuffer sBuffer = new StringBuffer();
-        while (true) {
+        while (true){
             try{
                 System.out.println("Enter your sentence!");
                 String userInput = myScanner.nextLine();
@@ -21,7 +21,7 @@ public class Capitalize {
                     }
                 System.out.println(Sresult);
                 break;
-            }catch(Exception e){
+            } catch(Exception e){
                 System.out.println("Not a valid input,try again?");
             }
         }

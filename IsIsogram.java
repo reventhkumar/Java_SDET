@@ -12,7 +12,7 @@ public class IsIsogram {
             if(input.length()==0  || input.isEmpty() ||input.isBlank()){
                 System.out.println("Invalid input");
                 continue;
-            }else if(input.length()==1){
+            } else if(input.length()==1){
                 System.out.println("Please enter more than one character");
                 continue;
             }
@@ -30,7 +30,7 @@ public class IsIsogram {
             if(tempint>input.length()){
                 System.out.println("The Input "+input+" is not isogram");
                 break;
-            }else{
+            } else{
                 System.out.println("The Input "+input+" is a isogram");
                 break;
             }

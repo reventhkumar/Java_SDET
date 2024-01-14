@@ -19,9 +19,9 @@ public class LargestOfnNumbers {
                 if(isAddNumber.equalsIgnoreCase("Y")){
                     tempNumber = Integer.parseInt(userinput);
                     continue;
-                }else if(isAddNumber.equalsIgnoreCase("N")){
+                } else if(isAddNumber.equalsIgnoreCase("N")){
                     break;
-                }else{
+                } else{
                     System.out.println("Invalid input try again");
                     break;
                 }

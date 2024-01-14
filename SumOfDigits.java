@@ -12,7 +12,7 @@ public class SumOfDigits {
                 for(int i=0; i<userInput.length();i++){
                     if(Character.isDigit(array[i])){
                         result = result+ Character.getNumericValue(array[i]);
-                    }else{
+                    } else{
                         System.out.println("The value is not a valid sequence, try again?");
                         break;
                     }

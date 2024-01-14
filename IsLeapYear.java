@@ -13,8 +13,8 @@ public class IsLeapYear {
         if(userInput.length()<=3 || userInput.length()>=5){
             System.out.println("Input year exceeds the limit of characters, try again?");
             continue;
-        }
-        if(inputValue % 100 ==0){
+        } else if(inputValue % 100 ==0){
+            
             if(inputValue % 400 ==0){
                 System.out.println("Its a leap year");
                 break;
@@ -25,7 +25,7 @@ public class IsLeapYear {
         } else if(inputValue % 4==0){
             System.out.println("Its a leap year");
             break;
-        }else{
+        } else{
             System.out.println("Its not a leap year");
             break;
         }
