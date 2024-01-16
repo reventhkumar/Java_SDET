@@ -19,16 +19,16 @@ public class ATM {
             System.out.println("Enter an amount to withdraw");
             String userInput = myScanner.nextLine();
             amountWithDraw = Integer.parseInt(userInput);
-        if(amountWithDraw >= initialAmount){
-            System.out.println("Requested withdraw amount exceeds the ATM limit try again?");
-            continue;
-        }else if(amountWithDraw <= 0){
-            System.out.println("Invalid amount Try again?");
-            continue;
-        }else{
-            System.out.println("Remaing balance in account is: " + (initialAmount - amountWithDraw));
-            break;
-        }
+            if(amountWithDraw >= initialAmount){
+                System.out.println("Requested withdraw amount exceeds the ATM limit try again?");
+                continue;
+            }else if(amountWithDraw <= 0){
+                System.out.println("Invalid withdraw amount Try again?");
+                continue;
+            }else{
+                System.out.println("Remaing balance in account is: " + (initialAmount - amountWithDraw));
+                break;
+            }
         }
         while (true) {
             if(amountWithDraw >= 2000){
@@ -95,7 +95,11 @@ public class ATM {
                 break;
             } 
         }
+        int totalNotes = denomcount2K+denomcount500+denomcount200+
+                        denomcount100+denomcount50+denomcount20+denomcount10+
+                        denomcount5+denomcount2+denomcount1;
         System.out.println("Denomination to withdraw are as follows");
+        System.out.println("Total number of notes " + totalNotes);
         System.out.println("2000: " + denomcount2K );
         System.out.println("500: " + denomcount500 );
         System.out.println("200: " + denomcount200 );
