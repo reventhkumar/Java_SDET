@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class IsPrimeNumber
 {
-
     public static void main(String a[]) {
         Scanner myScanner = new Scanner(System.in);
         int givenNumber = 0;
