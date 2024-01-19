@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ATM {
     public static void main(String[] args) {
+
         Scanner myScanner = new Scanner(System.in);
         int initialAmount = 1_00_000;
         int amountWithDraw = 0;
@@ -29,6 +30,9 @@ public class ATM {
                 System.out.println("Remaing balance in account is: " + (initialAmount - amountWithDraw));
                 break;
             }
+
+
+            
         }
         while (true) {
             if(amountWithDraw >= 2000){
@@ -111,6 +115,7 @@ public class ATM {
         System.out.println("2: " + denomcount2);
         System.out.println("1: " + denomcount1);
         myScanner.close();
+        
     }
     
 }
