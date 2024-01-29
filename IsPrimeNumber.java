@@ -31,7 +31,8 @@ public class IsPrimeNumber
                 System.out.println("Invalid input, Try Again"); 
                 continue;
             }
-                myScanner.close();
+               
         }
+        myScanner.close();
     }
 }
